@@ -210,6 +210,25 @@ let songs = [
     },
     {
         id: 5,
+        title: "Message in Bottle",
+        artist: "taylor swift",
+        album: "OK Computer",
+        albumArtUrl: "https://www.songmeaningsandfacts.com/wp-content/uploads/2022/11/Message-in-a-Bottle-by-Taylor-Swift.jpg",
+        audioSrc: "audio/bocil.mp3",
+        videoBgSrc: "videos/bocil.mp4",
+        lyrics: [
+            { time: 0  ,  text: "Cause you could be the one that I love" },
+            { time: 4,  text: "I could be the one that you dream of " },
+            { time: 8, text: "A message in a bottle is all I can do" },
+            { time: 11, text: "Standin' here, hopin' it gets to you" },
+            { time: 100, text: "You could be the one that I keep, and Iu" },
+            { time: 100, text: "I could be the reason you can't sleep at night" },
+            { time: 100, text: "A mеssage in a bottle is all I can do" },
+            { time: 100, text: "Standin' herе, hopin' it gets to you" },
+        ]
+    },
+    {
+        id: 6,
         title: "Somebody's Pleasure",
         artist: "Aziz Hedra", 
         album: "Unreleased",
@@ -314,8 +333,147 @@ let songs = [
             { time: 1000, text: "I just wanna be yours (Wanna be yours)" }
         ]
     },
+    {
+        id: 7,
+        title: "Welcome and Goodbye",
+        artist: "Dream, Ivory",
+        album: "Welcome and Goodbye",
+        albumArtUrl: "",
+        audioSrc: "audio/dream_ivory_welcome_and_goodbye.mp3",
+        videoBgSrc: "videos/welcome_and_goodbye_bg.mp4",
+        lyrics: [
+            { time: 0, text: "Through it all once again, came to know my only friend" },
+            { time: 7, text: "Lost control, can't begin, I seek within" },
+            { time: 13, text: "To feel the warmth brought within your skin" },
+            { time: 19, text: "Did you know, for how it seemed" },
+            { time: 24, text: "I should've stayed and let you be" },
+            { time: 29, text: "Run into my heart so carelessly" },
+            { time: 34, text: "That's the reason I'm afraid" },
+            { time: 39, text: "You're thoughts that can't be tamed" },
+            { time: 44, text: "And I'm trying to be sane" },
+            { time: 49, text: "And I'm trying to be sane" },
+            { time: 53, text: "And I'm trying to be sane" }
+        ]
+    },
+    {
+        id: 8,
+        title: "Let Down",
+        artist: "Radiohead",
+        album: "OK Computer",
+        albumArtUrl: "",
+        audioSrc: "audio/radiohead_let_down.mp3",
+        videoBgSrc: "videos/let_down_bg.mp4",
+        lyrics: [
+            { time: 0, text: "Transport, motorways and tramlines" },
+            { time: 6, text: "Starting and then stopping" },
+            { time: 10, text: "Taking off and landing" },
+            { time: 14, text: "The emptiest of feelings" },
+            { time: 18, text: "Disappointed people" },
+            { time: 22, text: "Clinging onto bottles" },
+            { time: 26, text: "And when it comes it's so, so disappointing" },
+            { time: 32, text: "Let down and hanging around" },
+            { time: 37, text: "Crushed like a bug in the ground" },
+            { time: 42, text: "Let down and hanging around" },
+            { time: 48, text: "Shell smashed, juices flowing" },
+            { time: 53, text: "Wings twitch, legs are going" },
+            { time: 58, text: "Don't get sentimental" },
+            { time: 61, text: "It always ends up drivel" },
+            { time: 65, text: "One day I am gonna grow wings" },
+            { time: 70, text: "A chemical reaction" },
+            { time: 74, text: "Hysterical and useless" },
+            { time: 78, text: "Hysterical and" },
+            { time: 82, text: "Let down and hanging around" },
+            { time: 87, text: "Crushed like a bug in the ground" },
+            { time: 92, text: "Let down and hanging around" }
+        ]
+    },
+    {
+        id: 9,
+        title: "Mr Loverman",
+        artist: "Ricky Montgomery",
+        album: "Montgomery Ricky",
+        albumArtUrl: "",
+        audioSrc: "audio/ricky_montgomery_mr_loverman.mp3",
+        videoBgSrc: "videos/mr_loverman_bg.mp4",
+        lyrics: [
+            { time: 0, text: "I'm headed straight for the floor" },
+            { time: 5, text: "The alcohol's served its tour" },
+            { time: 10, text: "And it's headed straight for my skin" },
+            { time: 15, text: "Leaving me daft and dim" },
+            { time: 20, text: "I've got this shake in my legs" },
+            { time: 24, text: "Shaking the thoughts from my head" },
+            { time: 28, text: "But who put these waves in the door?" },
+            { time: 32, text: "I crack and out I pour" },
+            { time: 37, text: "I'm Mr. Loverman" },
+            { time: 41, text: "And I miss my lover, man" },
+            { time: 45, text: "I'm Mr. Loverman" },
+            { time: 49, text: "Oh, and I miss my lover" },
+            { time: 55, text: "The ways in which you talk to me" },
+            { time: 59, text: "Have me wishin' I were gone" },
+            { time: 63, text: "The ways that you say my name" },
+            { time: 67, text: "Have me runnin' on and on" },
+            { time: 71, text: "Oh, I'm crampin' up, I'm crampin' up" },
+            { time: 75, text: "But you're crackin' up, you're crackin' up" },
+            { time: 80, text: "I'm Mr. Loverman" },
+            { time: 84, text: "And I miss my loverman" },
+            { time: 88, text: "I'm Mr. Loverman" },
+            { time: 92, text: "Oh, and I miss my lover" }
+        ]
+    },
+    {
+        id: 10,
+        title: "Where We Are",
+        artist: "One Direction",
+        album: "Midnight Memories (Deluxe Edition)",
+        albumArtUrl: "",
+        audioSrc: "audio/one_direction_where_we_are.mp3",
+        videoBgSrc: "videos/where_we_are_bg.mp4",
+        lyrics: [
+            { time: 0, text: "Remember when we would stay out too late" },
+            { time: 5, text: "We were young, havin' fun, made mistakes" },
+            { time: 10, text: "Did we ever know? Did we ever know?" },
+            { time: 15, text: "Did we ever know? Yeah" },
+            { time: 20, text: "All the things we'd just think of and say" },
+            { time: 25, text: "Never wrong, always right, not afraid" },
+            { time: 30, text: "Did we ever know? Did we ever know?" },
+            { time: 35, text: "Did we ever know?" },
+            { time: 40, text: "Is it all inside of my head?" },
+            { time: 45, text: "Maybe you still think I don't care" },
+            { time: 50, text: "But all I need is you" },
+            { time: 54, text: "Yeah, you know it's true, yeah, you know it's true" },
+            { time: 60, text: "Forget about where we are and let go" },
+            { time: 64, text: "We're so close" },
+            { time: 67, text: "If you don't know where to start, just hold on" },
+            { time: 71, text: "And don't run, no" },
+            { time: 75, text: "We're looking back, we messed around" },
+            { time: 79, text: "But that was then and this is now" },
+            { time: 83, text: "All we need's enough love to hold us" },
+            { time: 87, text: "Where we are" }
+        ]
+    },
+    {
+        id: 11,
+        title: "Let Down",
+        artist: "Radiohead",
+        album: "OK Computer",
+        albumArtUrl: "https://images.genius.com/ea1fda114f5091bce67f87cf8437b647.1000x1000x1.png",
+        audioSrc: "audio/letdown.mp3",
+        videoBgSrc: "videos/letdown.mp4",
+        lyrics: [
+            { time: 0.2  ,  text: "Floor collapsing Floating" },
+            { time: 5,  text: "bouncing back and " },
+            { time: 7, text: "One day, I am gonna grow wings" },
+            { time: 14.2, text: "A chemical reaction" },
+            { time: 17.9, text: "Hysterical and useless" },
+            { time: 23, text: "Hysterical and" },
+            { time: 26, text: "Let down and hanging around" },
+            { time: 33, text: "Crushed like a bug in the ground" },
+            { time: 40, text: "Let down and hanging around" }
 
+        ]
+    },
 ];
+
 let currentSongIndex = 0;
 let isPlaying = false;
 let isShuffle = false;
